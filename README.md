@@ -17,7 +17,7 @@ ner_result = huatuo.diagnosis(sentence)
 ```
 
 运行以上脚本输出结果：
-
+```
 [{'start_idx': 13, 'end_idx': 14, 'type': 'disease', 'entity': '感冒'},
 {'start_idx': 31, 'end_idx': 32, 'type': 'disease', 'entity': '感冒'},
 {'start_idx': 44, 'end_idx': 45, 'type': 'disease', 'entity': '感冒'},
@@ -36,7 +36,7 @@ ner_result = huatuo.diagnosis(sentence)
 {'start_idx': 114, 'end_idx': 115, 'type': 'disease', 'entity': '咳嗽'},
 {'start_idx': 118, 'end_idx': 119, 'type': 'disease', 'entity': '疼痛'},
 {'start_idx': 120, 'end_idx': 121, 'type': 'disease', 'entity': '症状'}]
-
+```
 
 ### 使用方式
 
