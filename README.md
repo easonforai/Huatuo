@@ -1,10 +1,8 @@
 # Huatuo [![Version][version-badge]][version-link] ![MIT License][license-badge]
 
 
-Add ehuatuo effect to image
 
-
-`ehuatuo` 是一个提供医疗命名实体识别服务的库
+`Huatuo` 是一个提供医疗命名实体识别服务的库
 
 
 ### 使用python进行测试：
@@ -41,7 +39,7 @@ ner_result = huatuo.diagnosis(sentence)
 ### 使用方式
 
 ```
-usage: ehuatuo [-h] [--sentence TEXT_OF_SENTENCE] [--out NERRESULT]
+usage: huatuo [-h] [--sentence TEXT_OF_SENTENCE] [--out NERRESULT]
 
 optional arguments:
   -h, --help         show this help message and exit
