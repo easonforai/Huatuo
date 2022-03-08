@@ -12,6 +12,7 @@ Add ehuatuo effect to image
 import huatuo
 
 sentence = '没有及时的盖被子，都会导致感冒的情况发生，下面我们一起了解下热感冒了吃什么好的快吧！风热感冒常伴有内火患者会出现咳嗽以及嗓子痒痛，在药物治疗的饿同时可以患者可以适当的吃冰糖雪梨茶，冰糖雪梨能够有效的去火，缓解患者因咽喉肿痛引起的咳嗽嗓子疼痛症状'
+
 ner_result = huatuo.diagnosis(sentence)
 
 运行以上脚本输出结果：
