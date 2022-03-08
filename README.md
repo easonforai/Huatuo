@@ -1,4 +1,4 @@
-# ehuatuo [![Version][version-badge]][version-link] ![MIT License][license-badge]
+# Huatuo [![Version][version-badge]][version-link] ![MIT License][license-badge]
 
 
 Add ehuatuo effect to image
