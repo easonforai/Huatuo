@@ -7,11 +7,11 @@
 
 ### 使用python进行测试：
 ```
-import huatuo
+import Huatuo
 
 sentence = '没有及时的盖被子，都会导致感冒的情况发生，下面我们一起了解下热感冒了吃什么好的快吧！风热感冒常伴有内火患者会出现咳嗽以及嗓子痒痛，在药物治疗的饿同时可以患者可以适当的吃冰糖雪梨茶，冰糖雪梨能够有效的去火，缓解患者因咽喉肿痛引起的咳嗽嗓子疼痛症状'
 
-ner_result = huatuo.diagnosis(sentence)
+ner_result = Huatuo.diagnosis(sentence)
 ```
 
 运行以上脚本输出结果：
@@ -39,7 +39,7 @@ ner_result = huatuo.diagnosis(sentence)
 ### 使用方式
 
 ```
-usage: huatuo [-h] [--sentence TEXT_OF_SENTENCE] [--out NERRESULT]
+usage: Huatuo [-h] [--sentence TEXT_OF_SENTENCE] [--out NERRESULT]
 
 optional arguments:
   -h, --help         show this help message and exit
@@ -51,15 +51,15 @@ optional arguments:
 ### 安装
 
 ```
-$ pip install huatuo
+$ pip install Huatuo
 ```
 
 
 ### License
 
-[MIT](https://github.com/easonforai/huatuo/blob/master/LICENSE)
+[MIT](https://github.com/easonforai/Huatuo/blob/master/LICENSE)
 
 
 [version-badge]:   https://img.shields.io/badge/version-0.1-brightgreen.svg
-[version-link]:    https://pypi.python.org/pypi/huatuo/
-[license-badge]:   https://img.shields.io/github/license/pythonml/huatuo.svg
+[version-link]:    https://pypi.python.org/pypi/Huatuo/
+[license-badge]:   https://img.shields.io/github/license/pythonml/Huatuo.svg
