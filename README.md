@@ -1,2 +1,2 @@
-# huatuo
+# Huatuo
 Provide medical NER function
